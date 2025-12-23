@@ -232,3 +232,15 @@ footer {
   margin: 12px 0;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  width: 42px;
+  height: auto;
+}
+
+32 × 32 px  (paling ideal)
