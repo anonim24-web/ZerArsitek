@@ -10,6 +10,26 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+<script>
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImg");
+  const closeBtn = document.querySelector(".close");
+
+  function openModal(img) {
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+  }
+
+  closeBtn.onclick = function () {
+    modal.style.display = "none";
+  }
+
+  modal.onclick = function (e) {
+    if (e.target === modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
 
 <!-- ===== HEADER ===== -->
 <header>
@@ -20,17 +40,91 @@
 
   <nav>
     <a href="#home">Home</a>
-    <a href="#portfolio">Portfolio</a>
+    <a href="#portfolio">Portofolio</a>
     <a href="#services">Layanan</a>
     <a href="#contact">Contact</a>
+    <a href="#about">Tentang Kami</a>
   </nav>
 </header>
 
-
 <!-- ===== HERO ===== -->
 <section id="home" class="hero">
-  <h2>Jasa & Portofolio Desain Bangunan 2D & 3D</h2>
-  <p>Profesional • Desain • Fungsional</p>
+  <h2>JASA DESAIN 3D DAN 2D </h2>
+  <h2>denah 2d | desain 3d | interior | </h2>
+
+</section>
+
+<section id="about" class="section about">
+  <h2>TENTANG KAMI</h2>
+
+  <div class="about-wrapper">
+    <div class="about-text">
+      <p>
+       ZerArsitek merupakan studio desain arsitektur yang menyediakan layanan desain bangunan 2D dan 3D. Fokus pada desain yang                        fungsional, modern, dan sesuai kebutuhan klien. ZerArsitek telah menangani berbagai proyek rumah tinggal, interior, 
+       dan eksterior dengan hasil yang rapi dan profesional. Kami percaya bahwa desain yang baik bukan hanya indah, tetapi juga 
+       nyaman, efisien, dan bernilai jangka panjang.
+       </p>
+      
+       </p>
+	Visi dari Zerarsitek untuk menghadirkan desain bangunan yang fungsional, estetis, dan berkualitas. Sedangkan untuk misi dari
+                  Zerarsitek adalah untuk memberikan layanan desain 2D dan 3D yang profesional, Mengutamakan kebutuhan dan kepuasan klien
+                  Menghasilkan desain yang rapi dan siap bangun.
+      </p>
+        
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="section">
+  <h2>Portofolio</h2>
+
+<!-- ===== MODAL IMAGE ===== -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+
+  <div class="grid">
+
+    <a href="portfolio/desain-rumah.html" class="card portfolio">
+      <img src="asset\Portofolio\desain rumah\desain1.jpg" alt="Rumah Minimalis">onclick="openModal(this)">
+      <h3>Rumah Minimalis Type 50</h3>
+    </a>
+
+    <a href="portfolio/desain-rumah.html" class="card portfolio">
+      <img src="asset\Portofolio\desain rumah\desain2.jpg" alt="Rumah Minimalis">onclick="openModal(this)">
+      <h3>Rumah Minimalis Type 80</h3>             
+    </a>
+
+    <a href="portfolio/desain-rumah.html" class="card portfolio">
+      <img src="asset\Portofolio\desain rumah\desain3.jpg" alt="Pos Jaga">onclick="openModal(this)">
+      <h3>Pos Jaga </h3>              
+    </a>
+
+    <a href="portfolio/denah-rumah.html" class="card portfolio">
+      <img src="asset\Portofolio\desain denah\denah1.jpg" alt="Denah Rumah">onclick="openModal(this)">
+      <h3>Desain Denah Rumah Type 50 </h3>              
+    </a>
+
+    <a href="portfolio/denah-rumah.html" class="card portfolio">
+      <img src="asset\Portofolio\desain denah\denah2.jpg" alt="Denah Rumah">onclick="openModal(this)">
+      <h3>Desain Denah Rumah Type 80 </h3>             
+    </a>
+
+    <a href="portfolio/denah-rumah.html" class="card portfolio">
+      <img src="asset\Portofolio\desain denah\denah3.jpg" alt="Denah Pos Jaga">onclick="openModal(this)">
+      <h3>Desain Denah Pos Jaga </h3>              
+    </a>
+
+    <a href="portfolio/interior-modern.html" class="card portfolio">
+      <img src="assets/images/portfolio/interior1.jpg" alt="Interior Modern">onclick="openModal(this)">
+      <h3>Interior Modern</h3>             
+    </a>
+
+
+  </div>
 </section>
 
 
@@ -48,7 +142,7 @@
         posisi pintu & jendela, kamar, dapur, kamar mandi, serta
         penyesuaian kebutuhan klien.
       </p>
-      <p class="price">Mulai Rp - / m²</p>
+      <p class="price" <p>
     </div>
 
     <!-- DESAIN 3D INTERIOR -->
@@ -59,7 +153,7 @@
         dapur, ruang keluarga, pemilihan warna, material, furniture,
         dan pencahayaan.
       </p>
-      <p class="price">Mulai Rp - / m²</p>
+      <p class="price"<p>
     </div>
 
     <!-- DESAIN 3D EKSTERIOR -->
@@ -70,7 +164,7 @@
         warna, material, pagar, kanopi, dan konsep arsitektur modern
         maupun minimalis.
       </p>
-      <p class="price">Mulai Rp - / m²</p>
+      <p class="price" <p>
     </div>
 
   </div>
@@ -92,3 +186,4 @@
     </a>
   </div>
 </section>
+

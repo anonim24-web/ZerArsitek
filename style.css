@@ -54,7 +54,7 @@ nav a:hover {
 
 .hero p {
   margin-top: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .section {
@@ -244,3 +244,80 @@ footer {
 }
 
 32 × 32 px  (paling ideal)
+
+.about {
+  background: #020617;
+}
+
+.about-wrapper {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-text h3 {
+  color: #3b82f6;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #e5e7eb;
+}
+
+/* ===== PORTFOLIO ===== */
+.portfolio {
+  text-decoration: none;
+  color: inherit;
+}
+
+.portfolio img {
+  width: 100%;
+  height: 180px;              /* KUNCI biar gak kebesaran */
+  object-fit: cover;          /* Potong rapi */
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.portfolio h3 {
+  color: #e5e7eb;
+  font-size: 1.05rem;
+}
+
+/* Hover efek */
+.portfolio:hover img {
+  transform: scale(1.05);
+}
+
+.portfolio img {
+  transition: transform 0.3s ease;
+}
+
+/* ===== MODAL IMAGE ===== */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(2,6,23,0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: 12px;
+}
+
+.close {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  color: #fff;
+  font-size: 35px;
+  cursor: pointer;
+}
