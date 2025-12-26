@@ -272,11 +272,11 @@ footer {
 }
 
 .portfolio img {
-  width: 100%;
+  width: 50%;
   height: 150px;              /* KUNCI biar gak kebesaran */
   object-fit: cover;          /* Potong rapi */
-  border-radius: 8px;
-  margin-bottom: 8px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .portfolio h3 {
@@ -323,6 +323,7 @@ footer {
 }
 
 background-image: url("img/hero.jpg");
+
 
 
 
