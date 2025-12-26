@@ -272,11 +272,11 @@ footer {
 }
 
 .portfolio img {
-  width: 100%;
-  height: 180px;              /* KUNCI biar gak kebesaran */
+  width: 20%;
+  height: 20px;              /* KUNCI biar gak kebesaran */
   object-fit: cover;          /* Potong rapi */
   border-radius: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .portfolio h3 {
@@ -300,23 +300,23 @@ footer {
   z-index: 999;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 20%;
+  height: 20%;
   background: rgba(2,6,23,0.9);
   justify-content: center;
   align-items: center;
 }
 
 .modal-content {
-  max-width: 90%;
-  max-height: 85%;
-  border-radius: 12px;
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 10px;
 }
 
 .close {
   position: absolute;
-  top: 25px;
-  right: 35px;
+  top: 20px;
+  right: 20px;
   color: #fff;
   font-size: 35px;
   cursor: pointer;
@@ -325,6 +325,7 @@ footer {
 background-image: url("img/hero.jpg");
 
 }
+
 
 
 
