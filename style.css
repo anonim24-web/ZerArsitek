@@ -265,33 +265,6 @@ footer {
   color: #e5e7eb;
 }
 
-/* ===== PORTFOLIO ===== */
-.portfolio {
-  text-decoration: none;
-  color: inherit;
-}
-
-.portfolio img {
-  width: 50%;
-  height: 150px;              /* KUNCI biar gak kebesaran */
-  object-fit: cover;          /* Potong rapi */
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-
-.portfolio h3 {
-  color: #e5e7eb;
-  font-size: 1.05rem;
-}
-
-/* Hover efek */
-.portfolio:hover img {
-  transform: scale(1.05);
-}
-
-.portfolio img {
-  transition: transform 0.3s ease;
-}
 
 /* ===== MODAL IMAGE ===== */
 .modal {
@@ -372,6 +345,7 @@ background-image: url("img/hero.jpg");
     grid-template-columns: 1fr; /* HP */
   }
 }
+
 
 
 
