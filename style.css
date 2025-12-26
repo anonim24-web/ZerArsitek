@@ -324,50 +324,8 @@ footer {
 
 background-image: url("img/hero.jpg");
 
-.portfolio-item img {
-  width: 100%;
-  max-width: 350px;
-  display: block;
-  border-radius: 8px;
-}
 
-.portfolio-item h3 {
-  margin-top: 8px;
-  font-size: 16px;
-  text-align: center;
-}
 
-/* ===== PORTFOLIO ===== */
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px;
-}
 
-.portfolio-item {
-  background: #020617;
-  padding: 16px;
-  border-radius: 12px;
-  text-align: center;
-}
-
-.portfolio-item img {
-  width: 100%;
-  height: 180px;          /* KUNCI: batasi tinggi */
-  object-fit: cover;      /* potong rapi, tidak gepeng */
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.portfolio-item img:hover {
-  transform: scale(1.05);
-}
-
-.portfolio-item h3 {
-  margin-top: 10px;
-  font-size: 15px;
-  color: #e5e7eb;
-}
 
 
