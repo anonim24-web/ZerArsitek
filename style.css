@@ -250,18 +250,18 @@ footer {
 }
 
 .about-wrapper {
-  max-width: 900px;
+  max-width: 20px;
   margin: auto;
 }
 
 .about-text h3 {
   color: #3b82f6;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .about-text p {
   line-height: 1.8;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #e5e7eb;
 }
 
@@ -325,6 +325,7 @@ footer {
 background-image: url("img/hero.jpg");
 
 }
+
 
 
 
