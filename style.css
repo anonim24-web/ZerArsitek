@@ -288,7 +288,7 @@ background-image: url("img/hero.jpg");
 /* ===== IMAGE ===== */
 .portfolio img {
   width: 100%;
-  height: 160px;          /* 🔑 DIPERKECIL */
+  height: 140px;          /* 🔑 DIPERKECIL */
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 8px;
@@ -321,6 +321,7 @@ background-image: url("img/hero.jpg");
 
 }
 }
+
 
 
 
