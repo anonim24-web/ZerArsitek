@@ -276,10 +276,10 @@ background-image: url("img/hero.jpg");
 
 .portfolio img {
   width: 80%;
-  height: 150px;              /* KUNCI biar gak kebesaran */
+  height: 100px;              /* KUNCI biar gak kebesaran */
   object-fit: cover;          /* Potong rapi */
   border-radius: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .portfolio h3 {
@@ -325,6 +325,7 @@ background-image: url("img/hero.jpg");
   cursor: pointer;
 }
 }
+
 
 
 
